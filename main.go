@@ -29,7 +29,7 @@ func loadConfig(configName string, conn net.Conn) error {
 
 var defaultConfig = []string{
 	"private_key=%s",
-	"listen_port=12912",
+	"listen_port=51820",
 	"replace_peers=true",
 	"public_key=%s",
 	"preshared_key=0000000000000000000000000000000000000000000000000000000000000000",
